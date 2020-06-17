@@ -17,9 +17,19 @@ $CFG->dboptions = array (
   'dbsocket' => '',
 );
 
-$CFG->wwwroot   = getenv('WWWROOT');
-$CFG->dataroot  = getenv('DATAROOT');
+//$CFG->wwwroot   = getenv('WWWROOT');
+//$CFG->dataroot  = getenv('DATAROOT');
 $CFG->admin     = 'admin';
+$CFG->DATABASE_TYPE = 'pgsql'
+$CFG->DATABASE_HOST = 'ec2-3-222-150-253.compute-1.amazonaws.com';
+$CFG->DATABASE_PORT = '5432';
+$CFG->DATABASE_NAME = 'ddgl57cd4bkec2';
+$CFG->DATABASE_USER = 'oseeusnokxfnhb';
+$CFG->DATABASE_PASSWORD = '41c82a29bcd18a78fc1e985fc4d1950d536108ef905cf02d2c2647ffa59d9cd8';
+$CFG->DATAROOT = 'tmp';
+$CFG->WWWROOT = 'http://tbg-moodle.herokuapp.com/';
+         
+
 
 $CFG->directorypermissions = 0777;
 
